@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        /* Custom CSS for the header */
+        /* Top area styles */
+        .top-area {
+            background-color: #f8f9fa;
+            padding: 10px 0;
+        }
+        .top-area ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .top-area ul li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+        .top-area ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        /* Logo area styles */
+        .logo-area {
+            background-color: #fff;
+            padding: 20px 0;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo-area .logo img {
+            max-width: 100%;
+        }
+
+        /* Navigation area styles */
+        .mainmenu-area .navbar-nav .nav-link {
+            color: #333 !important;
+        }
+        .mainmenu-area .navbar-nav .dropdown-menu a {
+            color: #333 !important;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <!-- START TOP AREA -->
+        <div class="top-area">
+           <div class="auto-container">
+              <div class="row">
+                 <div class="col-lg-4 col-md-12 col-sm-12 col-12 text-lg-left text-center">
+                    <div class="header-social">
+                       <ul>
+                          <li><a href="#"><i class="icofont-facebook"></i></a></li>
+                          <li><a href="#"><i class="icofont-twitter"></i></a></li>
+                          <li><a href="#"><i class="icofont-youtube"></i></a></li>
+                          <li><a href="#"><i class="icofont-pinterest"></i></a></li>
+                       </ul>
+                    </div>
+                 </div>
+                 <!-- end col -->
+                 <div class="col-lg-8 col-md-12 col-sm-12 col-12 text-lg-right text-center">
+                    <div class="top-menu">
+                       <ul>
+                          <li><a href="#"><i class="icofont-location-pin"></i>Myers Street, Brooklyn, NY 1212</a></li>
+                          <li><a href="#"><i class="icofont-phone"></i>+88 0675 1034</a></li>
+                       </ul>
+                    </div>
+                 </div>
+                 <!-- end col -->
+              </div>
+           </div>
+        </div>
+        <!-- END TOP AREA -->
+     
+        <!-- START LOGO AREA -->
+        <div class="logo-area">
+           <div class="auto-container">
+              <div class="row">
+                 <div class="col-lg-3 col-12 mx-auto text-lg-left text-center pl-0 mb-lg-0 mb-4">
+                    <div class="logo">
+                       <a href="index.html">
+                       <img class="img-fluid" src="assets/img/school_logo.png" alt="School Logo">
+                       </a>
+                    </div>
+                 </div>
+                 <!-- end col -->
+                 <div class="col-lg-9 col-12">
+                    <div class="header-info-box">
+                       <div class="header-info-icon">
+                          <i class="icofont-envelope"></i>
+                       </div>
+                       <h5>Contact Us</h5>
+                       <p>info@schoolname.com</p>
+                    </div>
+                    <div class="header-info-box">
+                       <div class="header-info-icon">
+                          <i class="icofont-headphone-alt-3"></i>
+                       </div>
+                       <h5>Call Us</h5>
+                       <p>+123-456-789</p>
+                    </div>
+                    <div class="header-info-box">
+                       <div class="header-info-icon">
+                          <i class="icofont-eye-open"></i>
+                       </div>
+                       <h5>Opening Hours</h5>
+                       <p>Mon - Fri: 8:00 AM - 4:00 PM</p>
+                    </div>
+                 </div>
+                 <!-- end col -->
+              </div>
+           </div>
+        </div>
+        <!-- END LOGO AREA -->
+     
+        <!-- START NAVIGATION AREA -->
+        <div class="sticky-menu">
+           <div class="mainmenu-area">
+              <div class="auto-container">
+                 <div class="row">
+                    <div class="col-lg-9 d-none d-lg-block d-md-none">
+                       <nav class="navbar navbar-expand-lg justify-content-left">
+                          <ul class="navbar-nav">
+                             <li class="dropdown active"><a class="nav-link" href="index.html">Home</a>
+                               <ul class="dropdown-menu">
+                                   <li><a href="index.html">Home 1</a></li>
+                                   <li><a href="index-2.html">Home 2</a></li>
+                                   <li><a href="index-3.html">Home 3</a></li>
+                                   <li><a href="index-4.html">Home 4</a></li>
+                               </ul>
+                             </li>
+                             <!-- Include other menu items as per your school website's requirements -->
+                          </ul>
+                       </nav>
+                    </div>
+                    <div class="col-lg-3 d-none d-lg-block d-md-none text-right">
+                       <a href="#" class="header-search"  data-toggle="modal" data-target=".header-search-modal"><i class="icofont-search-2"></i></a>
+                    </div>
+     
+                    <!-- search modal -->
+                    <div class="modal fade header-search-modal" tabindex="-1" role="dialog">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-body">
+                             <button type="button" class="close" data-dismiss="modal"><i class="icofont-close-line"></i></button>
+                             <form class="header-search-box">
+                               <div class="header-search-body row no-gutters align-items-center">
+                                   <div class="col">
+                                       <input class="form-control form-control-lg form-control" type="search" placeholder="Search...">
+                                   </div>
+                                   <div class="col-auto">
+                                       <button class="btn btn-lg header-search-btn" type="submit"><i class="icofont-search-2"></i></button>
+                                   </div>
+                               </div>
+                             </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end search modal -->
+                 </div>
+              </div>
+           </div>
+        </div>
+        <!-- END NAVIGATION AREA --> 
+     </header>
+     
+
+    <!-- Bootstrap JS and other scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
