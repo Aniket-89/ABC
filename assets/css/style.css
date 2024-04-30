@@ -1094,7 +1094,6 @@ a.header-search {
   font-size: 20px;
 }
 
-
 /*slider button style*/
 
 .home-single-slide-button a {
@@ -1409,6 +1408,46 @@ a.header-search {
 * ----------------------------------------------------------------------------------------
 */
 
+/*
+* ----------------------------------------------------------------------------------------
+* 03a. START BANNER STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+
+.banner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/gallery/IMG_9709.JPG);
+    background-size: cover; /* Ensure the background image covers the entire area */
+    background-position: center; /* Center the background image */
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%; /* Position the text vertically centered */
+    left: 50%; /* Position the text horizontally centered */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    color: #160000;
+    font-weight: 700;
+
+}
+
+
+.banner-act {
+    background-image: url(../img/gallery/IMG_9709.JPG);
+
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 03a. END BANNER STYLE
+* ----------------------------------------------------------------------------------------
+*/
 
 /*
 * ----------------------------------------------------------------------------------------
