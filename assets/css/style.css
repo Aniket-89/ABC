@@ -695,7 +695,7 @@ a.header-search {
 
 /*search modal*/
 
-.header-search-modal.modal {
+/* .header-search-modal.modal {
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 9;
 }
@@ -762,7 +762,7 @@ a.header-search {
 .header-search-modal button.close:focus {
   box-shadow: none;
   outline: 0;
-}
+} */
 
 
 /* main menu style */
