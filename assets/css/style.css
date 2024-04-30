@@ -2367,7 +2367,9 @@ a.header-search {
 * 09. START GALLERY STYLE
 * ----------------------------------------------------------------------------------------
 */
-
+#gallery {
+    overflow: hidden;
+}
 .portfolio-sin-item {
   background-color: #000;
   display: inline-block;
@@ -2427,7 +2429,7 @@ a.header-search {
   -webkit-box-shadow: 0 0 10px #000000;
   box-shadow: 0 0 10px #000000;
 }
-
+/* 
 .portfolio-sin-item:hover>img,
 .portfolio-sin-item.hover>img {
   opacity: 0.5;
@@ -2443,19 +2445,19 @@ a.header-search {
 .portfolio-sin-item.hover:after {
   -webkit-transform: skew(45deg) translateX(55%);
   transform: skew(45deg) translateX(55%);
-}
+} */
 
-.portfolio-sin-item:hover figcaption,
+/* .portfolio-sin-item:hover figcaption,
 .portfolio-sin-item.hover figcaption {
   -webkit-transform: translate(-50%, -50%) scale(1);
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
-}
-
+} */
+/* 
 .portfolio-sin-item figcaption .port-icon a {
   position: relative;
   color: #fff;
-}
+} */
 
 .portfolio-sin-item figcaption .port-icon a.icon-ho {
   -webkit-transition: background 0.2s, color 0.2s;
@@ -2845,6 +2847,7 @@ a.header-search {
 */
 
 .hnewslettr-padding {
+    margin-top: 20px;
   padding: 70px 0;
   position: relative;
   float: left;

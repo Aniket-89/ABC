@@ -353,7 +353,7 @@ Table Of Contents end
 						duration: 2000,
 						easing: 'swing',
 						step: function () {
-							$this.text(Math.ceil(this.Counter));
+							$this.text(Math.ceil(this.Counter) + "+");
 						}
 					});
 				});
